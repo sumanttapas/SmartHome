@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_securitySystem"
+            android:icon="@drawable/ic_lock"
+            android:title="Security" />
+        <item
+            android:id="@+id/nav_locks"
+            android:icon="@drawable/ic_key"
+            android:title="Locks" />
+        <item
+            android:id="@+id/nav_garage"
+            android:icon="@drawable/ic_garage"
+            android:title="Garage Doors" />
+        <item
+            android:id="@+id/nav_lights"
+            android:icon="@drawable/ic_light"
+            android:title="Lights" />
+        <item
+            android:id="@+id/nav_motion"
+            android:icon="@drawable/ic_motion_detector"
+            android:title="Motion Detector" />
+        <item
+            android:id="@+id/nav_door"
+            android:icon="@drawable/ic_door_sensor"
+            android:title="Door Sensors" />
+        <item
+            android:id="@+id/nav_thermostat"
+            android:icon="@drawable/ic_thermostat"
+            android:title="Thermostat" />
+        <item
+            android:id="@+id/nav_energy"
+            android:icon="@drawable/ic_energy"
+            android:title="Energy" />
+        <item
+            android:id="@+id/nav_video"
+            android:icon="@drawable/ic_video"
+            android:title="Video" />
+
+    </group>
+
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="logout" />
+        </menu>
+    </item>
+
+</menu>

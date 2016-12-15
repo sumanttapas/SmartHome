@@ -1,0 +1,177 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sumant.iot.fortyninersense.FragLights"
+    android:tag="fr_lights">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <GridLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res/com.commonsware.android.gridlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
+        android:columnCount="5"
+        android:rowCount="9"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageViewAll"
+            android:src="@drawable/ic_light"
+
+            android:layout_gravity="center"
+            android:layout_row="0"
+            android:layout_column="0" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageViewLivingRoom"
+            android:src="@drawable/ic_light"
+            android:layout_gravity="center"
+            android:layout_rowSpan="2"
+            android:layout_row="1"
+            android:layout_column="0" />
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/strLightsLivingRoom"
+
+            android:id="@+id/textViewLivingRoom"
+            android:layout_gravity="center"
+            android:layout_row="1"
+            android:layout_column="1" />
+
+        <ImageButton
+            android:layout_width="62dp"
+            android:layout_height="58dp"
+            android:id="@+id/imageButtonLivingRoom"
+            android:src="@drawable/ic_light_off"
+            android:layout_gravity="center"
+            android:layout_rowSpan="2"
+            android:layout_row="1"
+
+            android:layout_column="3" />
+
+        <SeekBar
+            android:layout_width="141dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/seekBarLivingRoom"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:indeterminate="false" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/strLightsAll"
+            android:id="@+id/textViewAll"
+            android:layout_gravity="center|left"
+            android:layout_row="0"
+            android:layout_column="1" />
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:text="0%"
+            android:id="@+id/textViewLRSeek"
+            android:layout_gravity="center"
+            android:layout_row="2"
+            android:layout_column="2" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageViewKitchen"
+            android:src="@drawable/ic_light"
+            android:layout_rowSpan="3"
+            android:layout_gravity="center"
+            android:layout_row="3"
+            android:layout_column="0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/strLightsKitchen"
+            android:id="@+id/textViewKitchen"
+
+            android:layout_gravity="center|left"
+            android:layout_row="3"
+            android:layout_column="1" />
+
+        <ImageButton
+            android:layout_width="62dp"
+            android:layout_height="58dp"
+
+            android:id="@+id/imageButtonKitchen"
+            android:src="@drawable/ic_light_off"
+            android:layout_gravity="center"
+            android:layout_rowSpan="3"
+            android:layout_row="3"
+            android:layout_column="3" />
+
+        <SeekBar
+            android:layout_width="141dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/seekBarKitchen"
+            android:layout_row="5"
+            android:layout_column="1"
+            android:indeterminate="false" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0%"
+            android:id="@+id/textViewKitSeek"
+            android:layout_gravity="start|center"
+            android:layout_row="5"
+            android:layout_column="2" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageViewBasement"
+            android:src="@drawable/ic_light"
+            android:layout_gravity="center"
+            android:layout_row="6"
+            android:layout_column="0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/strLightsBasement"
+            android:id="@+id/textViewBasement"
+            android:layout_gravity="center|left"
+            android:layout_row="6"
+            android:layout_column="1" />
+
+        <ImageButton
+            android:layout_width="62dp"
+            android:layout_height="58dp"
+            android:id="@+id/imageButtonAll"
+            android:src="@drawable/ic_light_off"
+
+            android:layout_row="0"
+            android:layout_column="3" />
+
+        <ImageButton
+            android:layout_width="62dp"
+            android:layout_height="58dp"
+            android:id="@+id/imageButtonBasement"
+            android:src="@drawable/ic_light_off"
+            android:layout_row="6"
+            android:layout_column="3" />
+
+    </GridLayout>
+
+</RelativeLayout>

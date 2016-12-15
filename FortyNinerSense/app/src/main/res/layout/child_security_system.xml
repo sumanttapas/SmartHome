@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/security">
+
+    <ImageView
+        android:layout_width="79dp"
+        android:layout_height="79dp"
+        android:id="@+id/imageViewChildSecSysLock"
+        android:src="@drawable/ic_armed"
+        android:layout_marginStart="10dp"
+        android:layout_gravity="start|center_vertical|center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Armed"
+
+        android:id="@+id/textViewChildSecurityStatus"
+        android:layout_gravity="center" />
+
+</FrameLayout>

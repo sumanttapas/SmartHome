@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="ThermoColorText">#333333</color>
+    <color name="ArmedAway">#ff0000</color>
+    <color name="ArmedStay">#f26800</color>
+    <color name="Disarmed">#018c18</color>
+    <color name="weather">#05aeba</color>>
+    <color name="lights">#711cbc</color>>
+    <color name="locks">#b71985</color>>
+    <color name="motion">#b7a519</color>>
+    <color name="garage">#b74119</color>>
+    <color name="door">#90b719</color>>
+    <color name="security">#5ca25c</color>>
+    <color name="thermo">#493e7e</color>>
+
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/door">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Main Floor"
+            android:layout_gravity="center"
+            android:id="@+id/textView9"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:textColor="@color/ThermoColorText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="           "
+            android:id="@+id/textView60"
+            android:layout_row="0"
+            android:layout_column="1" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageViewChildMainDoorSensor"
+            android:layout_row="0"
+            android:layout_gravity="start"
+            android:src="@drawable/ic_engaged"
+            android:layout_column="2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Up Floor"
+            android:layout_gravity="center"
+            android:id="@+id/textView59"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:textColor="@color/ThermoColorText" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageViewChildUpDoorSensor"
+            android:layout_row="1"
+            android:layout_gravity="start"
+            android:src="@drawable/ic_engaged"
+            android:layout_column="2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="         "
+            android:id="@+id/textView64"
+            android:layout_row="2"
+            android:layout_column="2" />
+    </GridLayout>
+</RelativeLayout>

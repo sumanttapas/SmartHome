@@ -1,0 +1,163 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sumant.iot.fortyninersense.FragSecuritySystem"
+    android:tag="fr_security">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridLayout5"
+        android:layout_marginBottom="64dp"
+        android:layout_above="@+id/gridLayout6"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Status"
+            android:layout_gravity="center"
+            android:id="@+id/textView39"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:textColor="@color/ThermoColorText" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/imageViewSecuritySystemStatus"
+            android:src="@drawable/ic_armed_red_b"
+            android:layout_row="1"
+            android:layout_column="0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="System"
+            android:layout_gravity="center"
+            android:id="@+id/textView40"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:textColor="@color/ThermoColorText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Armed Away"
+            android:id="@+id/textViewSecuritySystemStatus"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:textColor="@color/ArmedAway"
+            android:textSize="20sp" />
+
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/gridLayout6"
+        android:layout_marginBottom="121dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButtonSecuritySystemArmedAway"
+            android:layout_row="1"
+            android:background="@null"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_armed_red_b"
+            android:layout_column="0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    "
+            android:id="@+id/textView44"
+            android:layout_row="1"
+            android:layout_column="1" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:layout_gravity="center"
+            android:id="@+id/imageButtonSecuritySystemArmedStay"
+            android:src="@drawable/ic_armed_orange_b"
+            android:layout_row="1"
+            android:layout_column="2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="   "
+            android:id="@+id/textView45"
+            android:layout_row="1"
+            android:layout_column="3" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButtonSecuritySystemDisArmed"
+            android:background="@null"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_armed_green_b"
+            android:layout_row="1"
+            android:layout_column="4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/ArmedAway"
+            android:id="@+id/textView41"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:textColor="@color/ArmedAway"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/ArmedStay"
+            android:id="@+id/textView42"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:textColor="@color/ArmedStay"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/Disarmed"
+            android:layout_gravity="center"
+            android:id="@+id/textView43"
+            android:layout_row="2"
+            android:layout_column="4"
+            android:textColor="@color/Disarmed"
+            android:textSize="15sp" />
+    </GridLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Change Status:"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/textView46"
+        android:textColor="@color/ThermoColorText"
+        android:layout_above="@+id/gridLayout6"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
